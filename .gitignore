@@ -137,3 +137,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Locais
+ts-project-setup.sh
+./ts-project-setup.sh
