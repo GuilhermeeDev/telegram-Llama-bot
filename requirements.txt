@@ -1,6 +1,0 @@
-dotenv
-grammy
-tsx
-eslint
-prettier
-@huggingface/transformers

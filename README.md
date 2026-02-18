@@ -18,7 +18,7 @@ Bot de Telegram que roda uma **LLM leve (< 1B params)** localmente para responde
 
 ---
 
-## ▶️ Como rodar
+## Como rodar
 
 #### 1. Clone este repositório
 
