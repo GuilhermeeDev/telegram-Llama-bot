@@ -21,3 +21,4 @@ __pycache__/
 llama.cpp/
 Llama-3.2-1B-Instruct/
 config-model.md
+packages.txt
