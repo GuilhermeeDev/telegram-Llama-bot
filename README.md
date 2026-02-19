@@ -1,4 +1,4 @@
-# 🤖 Telegram Bot com LLM local
+# 🤖 Telegram Bot com Llama
 
 Bot de Telegram que roda uma **LLM leve (1B params)** localmente para responder perguntas, executar comandos e servir como base para experimentos de automações usando bots.
 
@@ -12,8 +12,8 @@ Bot de Telegram que roda uma **LLM leve (1B params)** localmente para responder 
 #### 1. Clone este repositório
 
 ```
-https://github.com/GuilhermeeDev/Telegram-Bot.git
-cd Telegram-Bot
+https://github.com/GuilhermeeDev/telegram-Llama-bot.git
+cd telegram-Llama-bot
 ```
 
 #### 2. Instalar dependências
