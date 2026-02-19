@@ -1,20 +1,9 @@
-# 🤖 Bot de Telegram com LLM local
+# 🤖 Telegram Bot com LLM local
 
-Bot de Telegram que roda uma **LLM leve (< 1B params)** localmente para responder perguntas simples, executar comandos e servir como base para experimentos de automações usando bots.
+Bot de Telegram que roda uma **LLM leve (1B params)** localmente para responder perguntas, executar comandos e servir como base para experimentos de automações usando bots.
 
----
-
-## Funcionalidades
-
-* Respostas a perguntas simples
-* Processamento de mensagens de texto
-* Inferência local (CPU)
-* Estrutura modular para expansão
-
----
-
-## LLM utilizada
-* **meta-llama/Llama-3.2-1B-Instruct** - [**link**](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) 
+### LLM utilizada
+- **meta-llama/Llama-3.2-1B-Instruct** - [**link**](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) 
 
 ---
 
@@ -33,26 +22,21 @@ cd Telegram-Bot
 npm install
 ```
 
-
 #### 3. Configurar variáveis de ambiente
-
-- Debian based's
+`.env`
 ```
-touch .env
-echo "BOT_TOKEN=SEU_TOKEN_DO_TELEGRAM" | tee -a .env
+TELEGRAM_BOT_TOKEN= # Token de bot do telegram
+MODEL_PATH=./model-for-telegram-bot/llama-3.2-1B-Q8.gguf
 ```
 
-### 4. Rode
-- Para `forks` de desenvolvimento do projeto
+#### 4. Clone o repositorio com os modelos .guff` e `Q8.guff`
+```
+git clone https://huggingface.co/Glherme/model-for-telegram-bot
+```
+
+### 5. Rode
 ```bash
 npm run dev
-```
-
-**ou**
-
-- Para uso ou produção
-```bash
-npm run build && npm start
-```
+``` 
 
 ---
