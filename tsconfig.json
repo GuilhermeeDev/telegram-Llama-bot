@@ -6,7 +6,6 @@
     "target": "ES2022",
     "moduleResolution": "NodeNext",
     "types": ["node"],
-    /* Opções de interoperabilidade */
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
